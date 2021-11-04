@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "port": null,
+  "autoLoadEntities": true,
+  "synchronize": true,
+  "entities": [
+    "/Users/mac/dev/personal/others/crowdlinker/src/model/**/*.entity.{ts,js}"
+  ],
+  "migrationsTableName": "migration",
+  "migrations": [
+    "/Users/mac/dev/personal/others/crowdlinker/src/config/src/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "ssl": false
+}
